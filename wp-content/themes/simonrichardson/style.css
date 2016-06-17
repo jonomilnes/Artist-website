@@ -11,3 +11,66 @@ Updated: 2016-06-11 16:08:53
 
 */
 
+.skin-edge h4 {
+	line-height: 1.8;
+	font-weight: normal;
+	font-size: 1.8rem;
+}
+
+
+.header-3 .header-inner {
+	background: #ffffff;
+	border-bottom: 1px solid #e2e2e2;
+}
+
+.skin-edge .header .logo {
+	width: 22rem;
+}
+
+.pe-skin .header.header-compact .logo {
+	width: 22rem;
+}
+
+.header-type-top .logo-text h3,
+.skin-edge .header-3 .navigation>ul>li>a,
+.skin-edge .header .navigation>ul>li.current>a,
+.skin-edge .header-3 .navigation-show a {
+	color: #333333;
+}
+
+.skin-edge .header-3 .navigation>ul>li>a:hover,
+.skin-edge .header-3 .navigation-show a:hover {
+	color: #bb9b69;
+}
+
+.thumbnail .caption-over-outer {
+	display: none;
+}
+
+span.date {
+	font-weight: bold;
+	height: 30px;
+	margin-right: 5px;
+}
+
+.footer-1 .footer-top {
+	padding-top: 0;
+	padding-bottom: 0;
+	border-top: 1px solid #e2e2e2;
+}
+
+.footer-1 .footer-bottom-inner {
+	border-top: none;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+.section-type-project-details img {
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 960px) {
+	.skin-edge .header, .skin-edge .header .header-inner {
+		background: #fff;
+	}
+}
